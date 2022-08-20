@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<parameter name="val1" value="122"/>
+ <parameter name="val2" value="133"/>
+ <test name="Test1">
+    <classes>
+      <class name="TESTNGprogramsALL.parametersDemo"/>
+    </classes>
+ </test> <!-- Test -->
+   <test name="Test3">
+ <classes>
+      <class name="TESTNGprogramsALL.parameterMultiplication"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
