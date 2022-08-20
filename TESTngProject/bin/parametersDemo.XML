@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+ <test name="Test1">
+ <parameter name="val1" value="122"/>
+ <parameter name="val2" value="133"/>
+    <classes>
+      <class name="TESTNGprogramsALL.parametersDemo"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+ <parameter name="val1" value="122"/>
+ <parameter name="val2" value="103"/>
+ <classes>
+      <class name="TESTNGprogramsALL.parametersDemo"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test3">
+ <parameter name="val1" value="100"/>
+ <parameter name="val2" value="103"/>
+ <classes>
+      <class name="TESTNGprogramsALL.parametersDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
